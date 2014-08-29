@@ -46,6 +46,7 @@
 #define DEFAULT_WIDTH (382 * DEFAULT_SCALE)
 #define DEFAULT_HEIGHT (320 * DEFAULT_SCALE)
 
+extern char **environ;
 Display *display;
 int screen;
 Window window;
@@ -387,28 +388,20 @@ void address_to_clipboard(void)
 
 void openurl(char_t *str)
 {
-    char cmd[1024], *p = cmd;
-
     #ifdef __APPLE__
-    p += sprintf(p, "open \"");
+    char *cmd = "/usr/bin/open";
     #else
-    p += sprintf(p, "xdg-open \'");
+    char *cmd = "/usr/bin/xdg-open";
     #endif
 
-    while(*str) {
-        //escape these characters
-        if(*str == '\"' || *str == '\\' || *str == '\'' || *str == '$') {
-            *p++ = '\\';
-        }
-        *p++ = *str++;
+    if (fork() == 0) {
+        /* Child process */
+        setsid();
+        char *args[] = { cmd, (char*) str, NULL };
+        execve(cmd, args, environ);
+        debug("execve failed\n");
+        exit(1);    /* Error */
     }
-    *p++ = '\'';
-    *p++ = ' ';
-    *p++ = '&';
-    *p = 0;
-
-    debug("cmd: %s\n", cmd);
-    system(cmd);
 }
 
 void openfilesend(void)
