@@ -1,17 +1,17 @@
 msgid(LANG_NATIVE_NAME)
-msgstr("Língua Brasileira")
+msgstr("Português brasileiro")
 
 msgid(LANG_ENGLISH_NAME)
-msgstr("Brazilian Language")
+msgstr("Brazilian Portuguese")
 
 msgid(REQ_SENT)
-msgstr("Pedido de Amizade Enviado. Assim que aceito o seu amigo irá aparecer online.")
+msgstr("Pedido de amizade enviado. Quando aceito, seu amigo aparecerá online.")
 
 msgid(REQ_RESOLVE)
 msgstr("Resolução de DNS em andamento...")
 
 msgid(REQ_INVALID_ID)
-msgstr("Erro: ID TOX inválido")
+msgstr("Erro: ID Tox inválido")
 
 msgid(REQ_EMPTY_ID)
 msgstr("Erro: ID Tox não especificado")
@@ -23,10 +23,10 @@ msgid(REQ_NO_MSG)
 msgstr("Erro: Sem mensagem")
 
 msgid(REQ_SELF_ID)
-msgstr("Erro: Tox ID is self ID")
+msgstr("Erro: Este é seu próprio ID Tox")
 
 msgid(REQ_ALREADY_FRIENDS)
-msgstr("Erro: Este ID TOX já consta na sua lista")
+msgstr("Erro: Este ID Tox já consta na sua lista")
 
 msgid(REQ_UNKNOWN)
 msgstr("Erro: Desconhecido")
@@ -35,46 +35,46 @@ msgid(REQ_BAD_CHECKSUM)
 msgstr("Erro: ID Tox Inválido (checksum)")
 
 msgid(REQ_BAD_NOSPAM)
-msgstr("Erro: Invalid Tox ID (bad nospam value)")
+msgstr("Erro: ID Tox inválido (código anti-spam incorreto)")
 
 msgid(REQ_NO_MEMORY)
 msgstr("Error: Sem memória")
 
 msgid(TRANSFER_NEW)
-msgstr("Novo Arquivo Transferido")
+msgstr("Nova transferência de arquivo")
 
 msgid(TRANSFER_STARTED)
-msgstr("Transferência de Arquivo Iniciada")
+msgstr("Transferência de arquivo iniciada")
 
 msgid(TRANSFER___)
 msgstr("...")
 
 msgid(TRANSFER_PAUSED)
-msgstr("Transferência de Arquivo Pausada")
+msgstr("Transferência de arquivo parada")
 
 msgid(TRANSFER_BROKEN)
-msgstr("Arquivo Transferido Corrompido")
+msgstr("Arquivo transferido está corrompido")
 
 msgid(TRANSFER_CANCELLED)
-msgstr("Arquivo Transferido Cancelado")
+msgstr("Transferência de arquivo cancelada")
 
 msgid(TRANSFER_COMPLETE)
-msgstr("Arquivo Transferido Completado")
+msgstr("Transferência completa")
 
 msgid(CALL_CANCELLED)
-msgstr("Chamada Cancelada")
+msgstr("Chamada cancelada")
 
 msgid(CALL_INVITED)
-msgstr("Chamada Enviada)
+msgstr("Chamada enviada")
 
 msgid(CALL_RINGING)
 msgstr("Chamando")
 
 msgid(CALL_STARTED)
-msgstr("Chamada Iniciada")
+msgstr("Chamada iniciada")
 
 msgid(ADDFRIENDS)
-msgstr("Amigos(s) adicionado(s)")
+msgstr("Adicionar amigos")
 
 msgid(TOXID)
 msgstr("ID Tox")
@@ -83,52 +83,52 @@ msgid(MESSAGE)
 msgstr("Mensagem")
 
 msgid(SEARCHFRIENDS)
-msgstr("Buscar Amigo(s)")
+msgstr("Buscar amigo(s)")
 
 msgid(ADD)
 msgstr("Adicionar")
 
 msgid(SWITCHPROFILE)
-msgstr("Mudar Perfil")
+msgstr("Trocar perfil")
 
 msgid(FRIENDREQUEST)
-msgstr("Requisições de Amizades")
+msgstr("Pedidos de amizade")
 
 msgid(USERSETTINGS)
-msgstr("Configurações de usuários")
+msgstr("Configurações do usuário")
 
 msgid(NAME)
 msgstr("Nome")
 
 msgid(STATUSMESSAGE)
-msgstr("Estado da Mensagem")
+msgstr("Mensagem de status")
 
 msgid(PREVIEW)
 msgstr("Previsão")
 
 msgid(DEVICESELECTION)
-msgstr("Disoisitivo Selecionado")
+msgstr("Dispisitivo selecionado")
 
 msgid(AUDIOINPUTDEVICE)
-msgstr("DIspositivo de Entrada de Audio")
+msgstr("Dispositivo de entrada de áudio")
 
 msgid(AUDIOOUTPUTDEVICE)
-msgstr("Dispositivo de Saída de Audio")
+msgstr("Dispositivo de saída de áudio")
 
 msgid(VIDEOINPUTDEVICE)
-msgstr("DIspositivo de Entrada de Video")
+msgstr("Dispositivo de entrada de vídeo")
 
 msgid(OTHERSETTINGS)
-msgstr("Outras Configurações")
+msgstr("Outras configurações")
 
 msgid(DPI)
 msgstr("DPI")
 
 msgid(SAVELOCATION)
-msgstr("Salvar Localização")
+msgstr("Salvar localização")
 
 msgid(LANGUAGE)
-msgstr("Idiona")
+msgstr("Idioma")
 
 msgid(NETWORK)
 msgstr("Rede")
@@ -143,10 +143,10 @@ msgid(PROXY)
 msgstr("Proxy (SOCKS 5)")
 
 msgid(WARNING)
-msgstr("Mudando configurações de rede/proxy desconectará temporáriamente da rede Tox")
+msgstr("Mudar as configurações de rede/proxy desconectará temporariamente da rede Tox")
 
 msgid(LOGGING)
-msgstr("Acessando")
+msgstr("Logar conversas")
 
 msgid(IS_TYPING)
 msgstr("está digitando...")
@@ -167,7 +167,7 @@ msgid(DELETE)
 msgstr("Excluir")
 
 msgid(SELECTALL)
-msgstr("Selecionar Tudo")
+msgstr("Selecionar tudo")
 
 msgid(REMOVE)
 msgstr("Remover")
@@ -182,16 +182,16 @@ msgid(IGNORE)
 msgstr("Ignorar")
 
 msgid(CLICKTOSAVE)
-msgstr("Clique para Salvar")
+msgstr("Clique para salvar")
 
 msgid(CLICKTOOPEN)
-msgstr("Clique para Abrir")
+msgstr("Clique para abrir")
 
 msgid(CANCELLED)
 msgstr("Cancelado")
 
 msgid(DPI_TINY)
-msgstr("Fino (50%)")
+msgstr("Pequeno (50%)")
 
 msgid(DPI_NORMAL)
 msgstr("Normal (100%)")
@@ -200,22 +200,22 @@ msgid(DPI_BIG)
 msgstr("Grande (150%)")
 
 msgid(DPI_LARGE)
-msgstr("Largo (200%)")
+msgstr("Maior (200%)")
 
 msgid(DPI_HUGE)
 msgstr("Imenso (250%)")
 
 msgid(CONTACTS_FILTER_ALL)
-msgstr("Tudo")
+msgstr("Todos")
 
 msgid(CONTACTS_FILTER_ONLINE)
-msgstr("Ligado")
+msgstr("Conectados")
 
 msgid(PROXY_DISABLED)
 msgstr("Desabilitado")
 
 msgid(PROXY_FALLBACK)
-msgstr("Retorno")
+msgstr("Apenas se necessário")
 
 msgid(PROXY_ALWAYS_USE)
 msgstr("Sempre usar")
@@ -230,13 +230,13 @@ msgid(VIDEO_IN_NONE)
 msgstr("Nenhum")
 
 msgid(VIDEO_IN_DESKTOP)
-msgstr("Área de tTrabalho")
+msgstr("Área de trabalho")
 
 msgid(DEFAULT_FRIEND_REQUEST_MESSAGE)
-msgstr("Por favor, aceite esta requisição de amizade.")
+msgstr("Por favor, aceite este pedido de amizade.")
 
 msgid(CONTACTS_FILTER_EDIT_HINT)
-msgstr("Buscar Amigo(s)")
+msgstr("Buscar amigo(s)")
 
 msgid(PROXY_EDIT_HINT_IP)
 msgstr("IP")
